@@ -1,0 +1,16 @@
+{
+  "packages": ["apps/*"],
+  "version": "independent",
+  "hoist": false,
+  "command": {
+    "publish": {
+      "registry": "https://gitlab.com/api/v4/projects/33475127/packages/npm/"
+    },
+    "version": {
+      "createRelease": "gitlab",
+      "conventionalCommits": true,
+      "allowBranch": ["master", "develop"],
+      "message": "chore(release): publish"
+    }
+  }
+}
