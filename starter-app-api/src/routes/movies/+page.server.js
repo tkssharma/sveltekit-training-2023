@@ -13,4 +13,5 @@ export const load = async () => {
 	return {
 		movies: fetchMovies()
 	};
+
 };
